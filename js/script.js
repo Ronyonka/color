@@ -23,8 +23,10 @@ $(function(){
                 $('.input').css('color', '#fff')
                 $('input').addClass('myClass')
             }
-        }else if(hex.length != '' && rgb.length == ''){
-
+        }else if(hex.length != '' && rgb.length != ''){
+            alert("Enter only a single value")
+            $('#rgb').val('');
+            $('#hex').val('');
         }
     })
 })
