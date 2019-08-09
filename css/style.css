@@ -1,0 +1,69 @@
+body{
+    font-family: 'Blinker', sans-serif;
+}
+.input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    width: 70%
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+@media only screen and (min-width: 768px){
+    input:focus,
+    select:focus,
+    textarea:focus{
+        outline: none;
+    }
+    form{
+        margin-top: 20%
+    }
+    /* label {
+        text-align:left;
+        width:150px;
+        display:block;
+        float:left;
+        clear:right;
+        font-size:18;
+    } */
+    .stuff{
+        height: 1vh;
+    }
+}
+@media only screen and (min-width: 600px){
+    .logo{
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .input{
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        border-bottom: 2px solid #000;
+        text-align: center;
+        width: 100%
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+    .input{
+        width: 80%;
+    }
+    form{
+        margin-left:30%;
+        margin-top:55%;
+    }
+    .logo{
+        margin-top: 20px;
+        margin-left: 35%;
+    }
+}
