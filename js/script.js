@@ -3,6 +3,7 @@ $(function(){
         var rgb = $('#rgb').val()
         var hex = $('#hex').val()
         if(rgb.length == '' && $('#hex').val().length != ''){
+            hex.toLowerCase()
             $('body').css('background', '#'+hex)
             $('.input').css('background', '#'+hex)
             $('#hex').val('');
