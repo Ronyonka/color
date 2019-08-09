@@ -7,6 +7,8 @@ $(function(){
         if(hex == 000){
             $('.logo').css('color', '#fff')
             $('.input').css('border-bottom','2px solid #fff')
+            $('.input').css('color', '#fff')
+            $('input').addClass('myClass')
         }
     })
 })
